@@ -1,0 +1,19 @@
+const {{open_curly}}defineSupportCode{{close_curly}} = require('cucumber');
+
+defineSupportCode(function({{open_curly}}Before, After, Given, When, Then, BeforeAll, AfterAll{{close_curly}}) {{open_curly}}
+
+BeforeAll(function() {{open_curly}}
+{{close_curly}});
+
+{{> before_hook}}
+
+{{> after_hook}}
+
+AfterAll(function() {{open_curly}}
+Promise.resolve();
+{{close_curly}});
+
+{{#each rendered_children.actionwords}}{{#if this}}{{{this}}}{{/if}}
+{{/each}}
+
+{{close_curly}});

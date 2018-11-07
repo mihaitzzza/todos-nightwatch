@@ -1,0 +1,16 @@
+{
+  "name": "test-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch -e chrome,firefox"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "0.9.21",
+    "cucumber": "3.0.2",
+    "nightwatch-cucumber": "8.2.1"
+  }
+}

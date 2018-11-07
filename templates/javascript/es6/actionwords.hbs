@@ -1,0 +1,6 @@
+var {{#curly}} client {{/curly}} = require('nightwatch-cucumber');
+
+exports.Actionwords = {{#curly}}{{#indent}}{{#join rendered_children.actionwords ","}}
+{{{this}}}{{/join}}
+{{/indent}}
+{{/curly}};
