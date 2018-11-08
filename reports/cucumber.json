@@ -1,25 +1,34 @@
 [
   {
     "keyword": "Feature",
-    "name": "ToDo's",
+    "name": "Regression Test",
     "line": 1,
-    "id": "todo's",
+    "id": "regression-test",
     "tags": [],
-    "uri": "features/ToDos.feature",
+    "uri": "features/Regression_Test.feature",
     "elements": [
       {
-        "id": "todo's;todo's-sanity-test-(uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
+        "id": "regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)",
         "keyword": "Scenario",
-        "line": 4,
-        "name": "ToDo's Sanity Test (uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
-        "tags": [],
+        "line": 5,
+        "name": "Filter list by Active Status (uid:244bcb05-5485-4f0d-8240-bf625c7e4369)",
+        "tags": [
+          {
+            "name": "@regression_test",
+            "line": 4
+          },
+          {
+            "name": "@Priority_P1",
+            "line": 4
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:8"
+              "location": "features/step_definitions/step_definitions.js:7"
             },
             "result": {
               "status": "passed"
@@ -28,25 +37,664 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "a user on the todo list",
+            "line": 6,
+            "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:20"
+              "location": "features/step_definitions/step_definitions.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 2
+              "duration": 10917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "he filters the list by Active status",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:58"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the list is filtered showing only unmarked items",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:62"
+            },
+            "result": {
+              "status": "passed"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:12"
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Filter list by Complete Status (uid:f4634298-62fa-4fad-a790-05e2bf98fb20)",
+        "tags": [
+          {
+            "name": "@regression_test",
+            "line": 10
+          },
+          {
+            "name": "@Priority_P1",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "a user on the To Do list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2872
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "he filters the list by Complete status",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:66"
             },
             "result": {
               "status": "passed",
               "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the list is filtered showing only marked items",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:70"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Clear completed items (uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)",
+        "tags": [
+          {
+            "name": "@regression_test",
+            "line": 16
+          },
+          {
+            "name": "@Priority_P1",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "a user on the To Do list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2726
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "he clicks on Clear Completed option",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:74"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "all marked items are deleted from the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:78"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Smoke Test",
+    "line": 1,
+    "id": "smoke-test",
+    "tags": [],
+    "uri": "features/Smoke_Test.feature",
+    "elements": [
+      {
+        "id": "smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Add items to the list (uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)",
+        "tags": [
+          {
+            "name": "@smoke_test",
+            "line": 4
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 4
+          },
+          {
+            "name": "@JIRA-AA-001",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a user on the To Do form",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5661
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "he writes \"Repair the Car\" to the 'What needs to be done?' field",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1328
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "he presses enter",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1142
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Repair the Car\" is added to the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 449
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Add items to the list (uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)",
+        "tags": [
+          {
+            "name": "@smoke_test",
+            "line": 4
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 4
+          },
+          {
+            "name": "@JIRA-AA-001",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a user on the To Do form",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2980
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "he writes \"Pay bills\" to the 'What needs to be done?' field",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "he presses enter",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2311
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Pay bills\" is added to the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 455
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Add items to the list (uid:b967982c-1189-4c3c-9a85-778018d1b564)",
+        "tags": [
+          {
+            "name": "@smoke_test",
+            "line": 4
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 4
+          },
+          {
+            "name": "@JIRA-AA-001",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a user on the To Do form",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2843
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "he writes \"Buy flowers\" to the 'What needs to be done?' field",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1109
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "he presses enter",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1054
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Buy flowers\" is added to the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Mark items as done (uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)",
+        "tags": [
+          {
+            "name": "@smokte_test",
+            "line": 17
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "a user on the To Do form",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3681
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "he clicks bullet point on the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:38"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the item is marked as done",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:42"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the Items counter is updated",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Remove items from the list (uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)",
+        "tags": [
+          {
+            "name": "@smokte_test",
+            "line": 24
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "a user on the To Do list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4235
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "he presses on the X button for an item",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the item is removed from the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:54"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
             }
           }
         ]
@@ -62,10 +710,10 @@
     "uri": "features/ToDos.feature",
     "elements": [
       {
-        "id": "todo's;todo's-sanity-test-(uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
+        "id": "todo's;todo's-sanity-test---mock-up-(uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
         "keyword": "Scenario",
         "line": 4,
-        "name": "ToDo's Sanity Test (uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
+        "name": "ToDo's Sanity Test - Mock up (uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -73,7 +721,94 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:8"
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a user on the To Do list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2668
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Regression Test",
+    "line": 1,
+    "id": "regression-test",
+    "tags": [],
+    "uri": "features/Regression_Test.feature",
+    "elements": [
+      {
+        "id": "regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Filter list by Active Status (uid:244bcb05-5485-4f0d-8240-bf625c7e4369)",
+        "tags": [
+          {
+            "name": "@regression_test",
+            "line": 4
+          },
+          {
+            "name": "@Priority_P1",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a user on the To Do list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12465
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "he filters the list by Active status",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:58"
             },
             "result": {
               "status": "passed",
@@ -82,11 +817,88 @@
           },
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "a user on the todo list",
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the list is filtered showing only unmarked items",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:20"
+              "location": "features/step_definitions/step_definitions.js:62"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Filter list by Complete Status (uid:f4634298-62fa-4fad-a790-05e2bf98fb20)",
+        "tags": [
+          {
+            "name": "@regression_test",
+            "line": 10
+          },
+          {
+            "name": "@Priority_P1",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "a user on the To Do list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2680
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "he filters the list by Complete status",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the list is filtered showing only marked items",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:70"
             },
             "result": {
               "status": "passed",
@@ -97,7 +909,598 @@
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:12"
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Clear completed items (uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)",
+        "tags": [
+          {
+            "name": "@regression_test",
+            "line": 16
+          },
+          {
+            "name": "@Priority_P1",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "a user on the To Do list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2324
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "he clicks on Clear Completed option",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:74"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "all marked items are deleted from the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Smoke Test",
+    "line": 1,
+    "id": "smoke-test",
+    "tags": [],
+    "uri": "features/Smoke_Test.feature",
+    "elements": [
+      {
+        "id": "smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Add items to the list (uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)",
+        "tags": [
+          {
+            "name": "@smoke_test",
+            "line": 4
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 4
+          },
+          {
+            "name": "@JIRA-AA-001",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a user on the To Do form",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "he writes \"Repair the Car\" to the 'What needs to be done?' field",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4544
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "he presses enter",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1133
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Repair the Car\" is added to the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1141
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Add items to the list (uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)",
+        "tags": [
+          {
+            "name": "@smoke_test",
+            "line": 4
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 4
+          },
+          {
+            "name": "@JIRA-AA-001",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a user on the To Do form",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3939
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "he writes \"Pay bills\" to the 'What needs to be done?' field",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1148
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "he presses enter",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3260
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Pay bills\" is added to the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Add items to the list (uid:b967982c-1189-4c3c-9a85-778018d1b564)",
+        "tags": [
+          {
+            "name": "@smoke_test",
+            "line": 4
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 4
+          },
+          {
+            "name": "@JIRA-AA-001",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a user on the To Do form",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "he writes \"Buy flowers\" to the 'What needs to be done?' field",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2503
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "he presses enter",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1078
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Buy flowers\" is added to the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 448
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Mark items as done (uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)",
+        "tags": [
+          {
+            "name": "@smokte_test",
+            "line": 17
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "a user on the To Do form",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2493
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "he clicks bullet point on the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:38"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the item is marked as done",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:42"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the Items counter is updated",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:46"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Remove items from the list (uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)",
+        "tags": [
+          {
+            "name": "@smokte_test",
+            "line": 24
+          },
+          {
+            "name": "@Priority_P0",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "a user on the To Do list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2275
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "he presses on the X button for an item",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the item is removed from the list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:54"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "ToDo's",
+    "line": 1,
+    "id": "todo's",
+    "tags": [],
+    "uri": "features/ToDos.feature",
+    "elements": [
+      {
+        "id": "todo's;todo's-sanity-test---mock-up-(uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "ToDo's Sanity Test - Mock up (uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a user on the To Do list",
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2307
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/step_definitions/step_definitions.js:11"
             },
             "result": {
               "status": "passed"
