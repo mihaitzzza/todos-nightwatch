@@ -28,7 +28,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -40,11 +40,11 @@
             "line": 6,
             "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 10917
+              "duration": 9552
             }
           },
           {
@@ -53,7 +53,7 @@
             "line": 7,
             "name": "he filters the list by Active status",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:58"
+              "location": "features/step_definitions/step_definitions.js:55"
             },
             "result": {
               "status": "passed"
@@ -65,7 +65,7 @@
             "line": 8,
             "name": "the list is filtered showing only unmarked items",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:62"
+              "location": "features/step_definitions/step_definitions.js:59"
             },
             "result": {
               "status": "passed"
@@ -75,7 +75,7 @@
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -104,7 +104,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -116,11 +116,11 @@
             "line": 12,
             "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2872
+              "duration": 2738
             }
           },
           {
@@ -129,11 +129,10 @@
             "line": 13,
             "name": "he filters the list by Complete status",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:66"
+              "location": "features/step_definitions/step_definitions.js:63"
             },
             "result": {
-              "status": "passed",
-              "duration": 1
+              "status": "passed"
             }
           },
           {
@@ -142,7 +141,7 @@
             "line": 14,
             "name": "the list is filtered showing only marked items",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:70"
+              "location": "features/step_definitions/step_definitions.js:67"
             },
             "result": {
               "status": "passed"
@@ -152,7 +151,7 @@
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -181,7 +180,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -193,11 +192,11 @@
             "line": 18,
             "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2726
+              "duration": 5846
             }
           },
           {
@@ -206,7 +205,7 @@
             "line": 19,
             "name": "he clicks on Clear Completed option",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:74"
+              "location": "features/step_definitions/step_definitions.js:71"
             },
             "result": {
               "status": "passed"
@@ -218,20 +217,22 @@
             "line": 20,
             "name": "all marked items are deleted from the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:78"
+              "location": "features/step_definitions/step_definitions.js:75"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1
             }
           }
         ]
@@ -271,24 +272,23 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 1
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
-            "name": "a user on the To Do form",
+            "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:22"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 5661
+              "duration": 3472
             }
           },
           {
@@ -297,11 +297,11 @@
             "line": 7,
             "name": "he writes \"Repair the Car\" to the 'What needs to be done?' field",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:26"
+              "location": "features/step_definitions/step_definitions.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 1328
+              "duration": 1151
             }
           },
           {
@@ -310,11 +310,11 @@
             "line": 8,
             "name": "he presses enter",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:30"
+              "location": "features/step_definitions/step_definitions.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 1142
+              "duration": 1129
             }
           },
           {
@@ -323,18 +323,18 @@
             "line": 9,
             "name": "\"Repair the Car\" is added to the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:34"
+              "location": "features/step_definitions/step_definitions.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 449
+              "duration": 2105
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -367,7 +367,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -377,13 +377,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
-            "name": "a user on the To Do form",
+            "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:22"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2980
+              "duration": 3464
             }
           },
           {
@@ -392,11 +392,11 @@
             "line": 7,
             "name": "he writes \"Pay bills\" to the 'What needs to be done?' field",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:26"
+              "location": "features/step_definitions/step_definitions.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 1057
+              "duration": 1077
             }
           },
           {
@@ -405,11 +405,11 @@
             "line": 8,
             "name": "he presses enter",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:30"
+              "location": "features/step_definitions/step_definitions.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 2311
+              "duration": 1067
             }
           },
           {
@@ -418,18 +418,18 @@
             "line": 9,
             "name": "\"Pay bills\" is added to the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:34"
+              "location": "features/step_definitions/step_definitions.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 455
+              "duration": 1466
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -462,7 +462,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -472,13 +472,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
-            "name": "a user on the To Do form",
+            "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:22"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2843
+              "duration": 2788
             }
           },
           {
@@ -487,11 +487,11 @@
             "line": 7,
             "name": "he writes \"Buy flowers\" to the 'What needs to be done?' field",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:26"
+              "location": "features/step_definitions/step_definitions.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 1109
+              "duration": 1077
             }
           },
           {
@@ -500,11 +500,11 @@
             "line": 8,
             "name": "he presses enter",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:30"
+              "location": "features/step_definitions/step_definitions.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 1054
+              "duration": 1013
             }
           },
           {
@@ -513,18 +513,18 @@
             "line": 9,
             "name": "\"Buy flowers\" is added to the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:34"
+              "location": "features/step_definitions/step_definitions.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 547
+              "duration": 1760
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -553,7 +553,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -563,13 +563,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 19,
-            "name": "a user on the To Do form",
+            "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:22"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 3681
+              "duration": 3020
             }
           },
           {
@@ -578,10 +578,11 @@
             "line": 20,
             "name": "he clicks bullet point on the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:38"
+              "location": "features/step_definitions/step_definitions.js:35"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 8641
             }
           },
           {
@@ -590,10 +591,11 @@
             "line": 21,
             "name": "the item is marked as done",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:42"
+              "location": "features/step_definitions/step_definitions.js:39"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 7567
             }
           },
           {
@@ -602,18 +604,18 @@
             "line": 22,
             "name": "the Items counter is updated",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:46"
+              "location": "features/step_definitions/step_definitions.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 1
+              "duration": 868
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed",
@@ -643,7 +645,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -655,11 +657,11 @@
             "line": 26,
             "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 4235
+              "duration": 2744
             }
           },
           {
@@ -668,11 +670,11 @@
             "line": 27,
             "name": "he presses on the X button for an item",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:50"
+              "location": "features/step_definitions/step_definitions.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 1
+              "duration": 5607
             }
           },
           {
@@ -681,70 +683,19 @@
             "line": 28,
             "name": "the item is removed from the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:54"
+              "location": "features/step_definitions/step_definitions.js:51"
             },
             "result": {
-              "status": "passed"
+              "status": "failed",
+              "duration": 2600,
+              "error_message": "\n    at F.client.perform (/home/mihai-vladu/Work/meetup/test-env/features/step_definitions/actionwords.js:187:34)\n    at listOnTimeout (timers.js:324:15)"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
-            },
-            "result": {
-              "status": "passed"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "keyword": "Feature",
-    "name": "ToDo's",
-    "line": 1,
-    "id": "todo's",
-    "tags": [],
-    "uri": "features/ToDos.feature",
-    "elements": [
-      {
-        "id": "todo's;todo's-sanity-test---mock-up-(uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "ToDo's Sanity Test - Mock up (uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "a user on the To Do list",
-            "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2668
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -783,7 +734,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -795,11 +746,11 @@
             "line": 6,
             "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 12465
+              "duration": 14465
             }
           },
           {
@@ -808,11 +759,10 @@
             "line": 7,
             "name": "he filters the list by Active status",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:58"
+              "location": "features/step_definitions/step_definitions.js:55"
             },
             "result": {
-              "status": "passed",
-              "duration": 1
+              "status": "passed"
             }
           },
           {
@@ -821,20 +771,22 @@
             "line": 8,
             "name": "the list is filtered showing only unmarked items",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:62"
+              "location": "features/step_definitions/step_definitions.js:59"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1
             }
           }
         ]
@@ -860,7 +812,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -872,11 +824,11 @@
             "line": 12,
             "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2680
+              "duration": 7318
             }
           },
           {
@@ -885,11 +837,10 @@
             "line": 13,
             "name": "he filters the list by Complete status",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:66"
+              "location": "features/step_definitions/step_definitions.js:63"
             },
             "result": {
-              "status": "passed",
-              "duration": 1
+              "status": "passed"
             }
           },
           {
@@ -898,18 +849,17 @@
             "line": 14,
             "name": "the list is filtered showing only marked items",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:70"
+              "location": "features/step_definitions/step_definitions.js:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 1
+              "status": "passed"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -938,7 +888,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -950,11 +900,11 @@
             "line": 18,
             "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2324
+              "duration": 3332
             }
           },
           {
@@ -963,7 +913,7 @@
             "line": 19,
             "name": "he clicks on Clear Completed option",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:74"
+              "location": "features/step_definitions/step_definitions.js:71"
             },
             "result": {
               "status": "passed"
@@ -975,7 +925,7 @@
             "line": 20,
             "name": "all marked items are deleted from the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:78"
+              "location": "features/step_definitions/step_definitions.js:75"
             },
             "result": {
               "status": "passed",
@@ -986,7 +936,7 @@
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -1029,7 +979,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -1039,13 +989,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
-            "name": "a user on the To Do form",
+            "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:22"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2375
+              "duration": 2237
             }
           },
           {
@@ -1054,11 +1004,11 @@
             "line": 7,
             "name": "he writes \"Repair the Car\" to the 'What needs to be done?' field",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:26"
+              "location": "features/step_definitions/step_definitions.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 4544
+              "duration": 1304
             }
           },
           {
@@ -1067,11 +1017,11 @@
             "line": 8,
             "name": "he presses enter",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:30"
+              "location": "features/step_definitions/step_definitions.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 1133
+              "duration": 1075
             }
           },
           {
@@ -1080,18 +1030,18 @@
             "line": 9,
             "name": "\"Repair the Car\" is added to the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:34"
+              "location": "features/step_definitions/step_definitions.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 1141
+              "duration": 879
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -1124,7 +1074,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -1134,13 +1084,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
-            "name": "a user on the To Do form",
+            "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:22"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 3939
+              "duration": 2372
             }
           },
           {
@@ -1149,11 +1099,11 @@
             "line": 7,
             "name": "he writes \"Pay bills\" to the 'What needs to be done?' field",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:26"
+              "location": "features/step_definitions/step_definitions.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 1148
+              "duration": 1160
             }
           },
           {
@@ -1162,11 +1112,11 @@
             "line": 8,
             "name": "he presses enter",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:30"
+              "location": "features/step_definitions/step_definitions.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 3260
+              "duration": 1196
             }
           },
           {
@@ -1175,18 +1125,18 @@
             "line": 9,
             "name": "\"Pay bills\" is added to the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:34"
+              "location": "features/step_definitions/step_definitions.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 447
+              "duration": 1692
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -1219,7 +1169,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -1229,13 +1179,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
-            "name": "a user on the To Do form",
+            "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:22"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2459
+              "duration": 2357
             }
           },
           {
@@ -1244,11 +1194,11 @@
             "line": 7,
             "name": "he writes \"Buy flowers\" to the 'What needs to be done?' field",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:26"
+              "location": "features/step_definitions/step_definitions.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 2503
+              "duration": 1187
             }
           },
           {
@@ -1257,11 +1207,11 @@
             "line": 8,
             "name": "he presses enter",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:30"
+              "location": "features/step_definitions/step_definitions.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 1078
+              "duration": 1283
             }
           },
           {
@@ -1270,18 +1220,18 @@
             "line": 9,
             "name": "\"Buy flowers\" is added to the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:34"
+              "location": "features/step_definitions/step_definitions.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 448
+              "duration": 3036
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -1310,7 +1260,7 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
               "status": "passed"
@@ -1320,13 +1270,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 19,
-            "name": "a user on the To Do form",
+            "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:22"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2493
+              "duration": 2282
             }
           },
           {
@@ -1335,10 +1285,11 @@
             "line": 20,
             "name": "he clicks bullet point on the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:38"
+              "location": "features/step_definitions/step_definitions.js:35"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 8840
             }
           },
           {
@@ -1347,10 +1298,11 @@
             "line": 21,
             "name": "the item is marked as done",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:42"
+              "location": "features/step_definitions/step_definitions.js:39"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 8252
             }
           },
           {
@@ -1359,17 +1311,18 @@
             "line": 22,
             "name": "the Items counter is updated",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:46"
+              "location": "features/step_definitions/step_definitions.js:43"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 855
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"
@@ -1398,11 +1351,10 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
+              "location": "features/step_definitions/step_definitions.js:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 1
+              "status": "passed"
             }
           },
           {
@@ -1411,11 +1363,11 @@
             "line": 26,
             "name": "a user on the To Do list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
+              "location": "features/step_definitions/step_definitions.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2275
+              "duration": 2256
             }
           },
           {
@@ -1424,11 +1376,11 @@
             "line": 27,
             "name": "he presses on the X button for an item",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:50"
+              "location": "features/step_definitions/step_definitions.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 1
+              "duration": 7499
             }
           },
           {
@@ -1437,70 +1389,18 @@
             "line": 28,
             "name": "the item is removed from the list",
             "match": {
-              "location": "features/step_definitions/step_definitions.js:54"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
-            },
-            "result": {
-              "status": "passed"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "keyword": "Feature",
-    "name": "ToDo's",
-    "line": 1,
-    "id": "todo's",
-    "tags": [],
-    "uri": "features/ToDos.feature",
-    "elements": [
-      {
-        "id": "todo's;todo's-sanity-test---mock-up-(uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "ToDo's Sanity Test - Mock up (uid:e2dc9ea5-6b55-4ea4-8ce9-93fc024415d1)",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "match": {
-              "location": "features/step_definitions/step_definitions.js:7"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "a user on the To Do list",
-            "match": {
-              "location": "features/step_definitions/step_definitions.js:18"
+              "location": "features/step_definitions/step_definitions.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 2307
+              "duration": 1909
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features/step_definitions/step_definitions.js:11"
+              "location": "features/step_definitions/step_definitions.js:12"
             },
             "result": {
               "status": "passed"

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "import": "hiptest-publisher --config-file ./hiptest.conf --test-run-id 205131 --without=actionwords",
-    "test": "./node_modules/.bin/nightwatch -e chrome,firefox",
+    "test-local": "./node_modules/.bin/nightwatch --config nightwatch_local.conf.js -e chrome",
+    "test-sl": "./node_modules/.bin/nightwatch --config nightwatch_sl.conf.js -e chrome,firefox",
     "export": "hiptest-publisher --config-file ./hiptest.conf --push ./reports/cucumber.json --test-run-id 205131 --push-format junit"
   },
   "author": "",

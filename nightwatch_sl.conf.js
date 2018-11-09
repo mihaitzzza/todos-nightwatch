@@ -7,7 +7,7 @@ module.exports = {
     'custom_commands_path': '',
     'custom_assertions_path': '',
     'page_objects_path': '',
-    'globals_path': '',
+    'globals_path': './globals.js',
     'selenium': {
         'start_process': false,
         'server_path': '',
@@ -25,8 +25,8 @@ module.exports = {
             'selenium_port': 80,
             'selenium_host': 'ondemand.saucelabs.com',
             'silent': true,
-            'username': 'mihaitzzza',
-            'access_key': '64ea029f-4801-4ced-ad58-930aa21ecdba',
+            'username': 'cataursu',
+            'access_key': '8da67c83-b4e3-4100-86a6-90cb68cd7f59',
             'screenshots': {
                 'enabled': false,
                 'path': ''
@@ -37,13 +37,15 @@ module.exports = {
         },
         'chrome': {
             'desiredCapabilities': {
+                'name': 'Chrome job',
                 'browserName': 'chrome',
-                'platform': 'OS X 10.11',
-                'version': '47'
+                'platform': 'Linux',
+                'version': '48'
             }
         },
         'firefox': {
             'desiredCapabilities': {
+                'name': 'Firefox job',
                 'platform': 'Windows 8',
                 'browserName': 'firefox',
                 'version': '33'

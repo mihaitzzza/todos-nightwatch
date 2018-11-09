@@ -3,7 +3,7 @@ Feature: Smoke Test
 
   @smoke_test @Priority_P0 @JIRA-AA-001
   Scenario Outline: Add items to the list (<hiptest-uid>)
-    Given a user on the To Do form
+    Given a user on the To Do list
     When he writes "<item>" to the 'What needs to be done?' field
     And he presses enter
     Then "<item>" is added to the list
@@ -16,7 +16,7 @@ Feature: Smoke Test
 
   @smokte_test @Priority_P0
   Scenario: Mark items as done (uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)
-    Given a user on the To Do form
+    Given a user on the To Do list
     When he clicks bullet point on the list
     Then the item is marked as done
     And the Items counter is updated

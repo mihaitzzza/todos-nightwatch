@@ -1,6 +1,7 @@
 const { defineSupportCode } = require('cucumber');
 
 defineSupportCode(function ({ Before, After, Given, When, Then, BeforeAll, AfterAll }) {
+
     BeforeAll(function () {
     });
 
@@ -17,10 +18,6 @@ defineSupportCode(function ({ Before, After, Given, When, Then, BeforeAll, After
 
     Given('a user on the To Do list', function () {
         return this.actionwords['923e7630-87e4-4e01-8365-3c25b048707a']();
-    });
-
-    Given('a user on the To Do form', function () {
-        return this.actionwords['63a7942a-dfd2-480e-880e-124ad9babec4']();
     });
 
     When('he writes {string} to the \'What needs to be done\?\' field', function (p1) {
@@ -78,4 +75,5 @@ defineSupportCode(function ({ Before, After, Given, When, Then, BeforeAll, After
     Then('all marked items are deleted from the list', function () {
         return this.actionwords['97d6f2ff-3234-4909-b71c-051dca6f25d1']();
     });
+
 });
