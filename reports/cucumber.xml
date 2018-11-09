@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@regression_test" value="true">
+            </property>
+            <property name="@Priority_P1" value="true">
+            </property>
+            <property name="URI" value="features/Regression_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)" time="0.000007847">
+        </testcase>
+        <testcase name="When he filters the list by Active status" classname="regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)" time="1e-9">
+        </testcase>
+        <testcase name="Then the list is filtered showing only unmarked items" classname="regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)">
+        </testcase>
+    </testsuite>
+    <testsuite name="regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@regression_test" value="true">
+            </property>
+            <property name="@Priority_P1" value="true">
+            </property>
+            <property name="URI" value="features/Regression_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)" time="0.000002757">
+        </testcase>
+        <testcase name="When he filters the list by Complete status" classname="regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)" time="1e-9">
+        </testcase>
+        <testcase name="Then the list is filtered showing only marked items" classname="regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)">
+        </testcase>
+    </testsuite>
+    <testsuite name="regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@regression_test" value="true">
+            </property>
+            <property name="@Priority_P1" value="true">
+            </property>
+            <property name="URI" value="features/Regression_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)" time="0.000004074">
+        </testcase>
+        <testcase name="When he clicks on Clear Completed option" classname="regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)">
+        </testcase>
+        <testcase name="Then all marked items are deleted from the list" classname="regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@smoke_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="@JIRA-AA-001" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" time="0.00000258">
+        </testcase>
+        <testcase name="When he writes &quot;Repair the Car&quot; to the &apos;What needs to be done?&apos; field" classname="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" time="0.000001141">
+        </testcase>
+        <testcase name="And he presses enter" classname="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" time="0.00000113">
+        </testcase>
+        <testcase name="Then &quot;Repair the Car&quot; is added to the list" classname="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" time="8.99e-7">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@smoke_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="@JIRA-AA-001" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" time="0.00000252">
+        </testcase>
+        <testcase name="When he writes &quot;Pay bills&quot; to the &apos;What needs to be done?&apos; field" classname="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" time="0.000001489">
+        </testcase>
+        <testcase name="And he presses enter" classname="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" time="0.000001063">
+        </testcase>
+        <testcase name="Then &quot;Pay bills&quot; is added to the list" classname="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" time="0.000001767">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@smoke_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="@JIRA-AA-001" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" time="0.000002753">
+        </testcase>
+        <testcase name="When he writes &quot;Buy flowers&quot; to the &apos;What needs to be done?&apos; field" classname="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" time="0.00000123">
+        </testcase>
+        <testcase name="And he presses enter" classname="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" time="0.000001038">
+        </testcase>
+        <testcase name="Then &quot;Buy flowers&quot; is added to the list" classname="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" time="0.000001763">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@smokte_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" time="0.000002773">
+        </testcase>
+        <testcase name="When he clicks bullet point on the list" classname="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" time="0.000011402">
+        </testcase>
+        <testcase name="Then the item is marked as done" classname="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" time="0.000004425">
+        </testcase>
+        <testcase name="And the Items counter is updated" classname="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" time="8.52e-7">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@smokte_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)" time="0.000002604">
+        </testcase>
+        <testcase name="When he presses on the X button for an item" classname="smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)" time="0.000005517">
+        </testcase>
+        <testcase name="Then the item is removed from the list" classname="smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)" time="0.000001652">
+        </testcase>
+    </testsuite>
+    <testsuite name="regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@regression_test" value="true">
+            </property>
+            <property name="@Priority_P1" value="true">
+            </property>
+            <property name="URI" value="features/Regression_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)" time="0.000013699">
+        </testcase>
+        <testcase name="When he filters the list by Active status" classname="regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)">
+        </testcase>
+        <testcase name="Then the list is filtered showing only unmarked items" classname="regression-test;filter-list-by-active-status-(uid:244bcb05-5485-4f0d-8240-bf625c7e4369)">
+        </testcase>
+    </testsuite>
+    <testsuite name="regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@regression_test" value="true">
+            </property>
+            <property name="@Priority_P1" value="true">
+            </property>
+            <property name="URI" value="features/Regression_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)" time="0.00000571">
+        </testcase>
+        <testcase name="When he filters the list by Complete status" classname="regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)">
+        </testcase>
+        <testcase name="Then the list is filtered showing only marked items" classname="regression-test;filter-list-by-complete-status-(uid:f4634298-62fa-4fad-a790-05e2bf98fb20)">
+        </testcase>
+    </testsuite>
+    <testsuite name="regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@regression_test" value="true">
+            </property>
+            <property name="@Priority_P1" value="true">
+            </property>
+            <property name="URI" value="features/Regression_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)" time="0.000002697">
+        </testcase>
+        <testcase name="When he clicks on Clear Completed option" classname="regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)" time="1e-9">
+        </testcase>
+        <testcase name="Then all marked items are deleted from the list" classname="regression-test;clear-completed-items-(uid:f9d815e4-bcae-4bce-b950-515dc7d94d63)">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@smoke_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="@JIRA-AA-001" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" time="0.00000258">
+        </testcase>
+        <testcase name="When he writes &quot;Repair the Car&quot; to the &apos;What needs to be done?&apos; field" classname="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" time="0.000002018">
+        </testcase>
+        <testcase name="And he presses enter" classname="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" time="0.000001288">
+        </testcase>
+        <testcase name="Then &quot;Repair the Car&quot; is added to the list" classname="smoke-test;add-items-to-the-list-(uid:60bf8702-7614-485c-8723-c9b2d58f7fbb)" time="0.000002671">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@smoke_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="@JIRA-AA-001" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" time="0.000002618">
+        </testcase>
+        <testcase name="When he writes &quot;Pay bills&quot; to the &apos;What needs to be done?&apos; field" classname="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" time="0.000001255">
+        </testcase>
+        <testcase name="And he presses enter" classname="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" time="0.000001114">
+        </testcase>
+        <testcase name="Then &quot;Pay bills&quot; is added to the list" classname="smoke-test;add-items-to-the-list-(uid:854c6162-1f81-4f5a-89bd-6588d9e0ec75)" time="0.000002913">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@smoke_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="@JIRA-AA-001" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" time="0.000004889">
+        </testcase>
+        <testcase name="When he writes &quot;Buy flowers&quot; to the &apos;What needs to be done?&apos; field" classname="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" time="0.000001174">
+        </testcase>
+        <testcase name="And he presses enter" classname="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" time="0.000001456">
+        </testcase>
+        <testcase name="Then &quot;Buy flowers&quot; is added to the list" classname="smoke-test;add-items-to-the-list-(uid:b967982c-1189-4c3c-9a85-778018d1b564)" time="0.000002776">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="@smokte_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" time="0.000003832">
+        </testcase>
+        <testcase name="When he clicks bullet point on the list" classname="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" time="0.000013238">
+        </testcase>
+        <testcase name="Then the item is marked as done" classname="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" time="0.000004343">
+        </testcase>
+        <testcase name="And the Items counter is updated" classname="smoke-test;mark-items-as-done-(uid:0ba7de87-241a-4691-b78d-49cef15d3cb8)" time="8.92e-7">
+        </testcase>
+    </testsuite>
+    <testsuite name="smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@smokte_test" value="true">
+            </property>
+            <property name="@Priority_P0" value="true">
+            </property>
+            <property name="URI" value="features/Smoke_Test.feature">
+            </property>
+        </properties>
+        <testcase name="Given a user on the To Do list" classname="smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)" time="0.000002793">
+        </testcase>
+        <testcase name="When he presses on the X button for an item" classname="smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)" time="0.000008726">
+        </testcase>
+        <testcase name="Then the item is removed from the list" classname="smoke-test;remove-items-from-the-list-(uid:ab8583b7-2e46-4bd8-b32c-f6345f6f54e4)" time="0.000001785">
+        </testcase>
+    </testsuite>
+</testsuites>

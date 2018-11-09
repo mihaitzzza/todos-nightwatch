@@ -7,13 +7,15 @@
     "import": "hiptest-publisher --config-file ./hiptest.conf --test-run-id 205131 --without=actionwords",
     "test-local": "./node_modules/.bin/nightwatch --config nightwatch_local.conf.js -e chrome",
     "test-sl": "./node_modules/.bin/nightwatch --config nightwatch_sl.conf.js -e chrome,safari",
-    "export": "hiptest-publisher --config-file ./hiptest.conf --push ./reports/cucumber.json --test-run-id 205131 --push-format junit"
+    "junit-report": "cat ./reports/cucumber.json | ./node_modules/.bin/cucumber-junit > reports/cucumber.xml",
+    "export": "hiptest-publisher --config-file ./hiptest.conf --push ./reports/cucumber.xml --test-run-id 205131 --push-format junit"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nightwatch": "0.9.21",
     "cucumber": "3.0.2",
+    "cucumber-junit": "1.7.1",
     "nightwatch-cucumber": "8.2.1"
   }
 }
