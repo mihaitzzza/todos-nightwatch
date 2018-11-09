@@ -153,8 +153,6 @@ exports.Actionwords = {
                                         // Click the corresponding bullet point.
                                         client
                                             .elementIdElement(liWebElementId, 'css selector', 'button.destroy', removeWebElement => {
-                                                console.log('click the button', removeWebElement.value.ELEMENT);
-
                                                 client
                                                     .moveTo(liWebElementId, null, null)
                                                     .elementIdClick(removeWebElement.value.ELEMENT)
@@ -174,7 +172,6 @@ exports.Actionwords = {
             .elements('css selector', 'li label', results => {
                 results.value.forEach(labelWebElement => {
                     client.elementIdText(labelWebElement.ELEMENT, labelElement => {
-                        console.log(labelElement.value, customTodo);
                         if (labelElement.value === customTodo) {
                             isCustomToDoFound = true;
                         }
@@ -184,7 +181,6 @@ exports.Actionwords = {
             .pause(pauseMs);
 
         return client.perform(() => {
-            console.log('isExistingToDoFound', isCustomToDoFound);
             return client.assert.ok(!isCustomToDoFound, `${customTodo} is removed from the list.`);
         });
     },
