@@ -155,11 +155,10 @@ exports.Actionwords = {
                                             .elementIdElement(liWebElementId, 'css selector', 'button.destroy', removeWebElement => {
                                                 console.log('click the button', removeWebElement.value.ELEMENT);
 
-                                                client.moveTo(removeWebElement.value.ELEMENT, () => {
-                                                    client
-                                                        .elementIdClick(removeWebElement.value.ELEMENT)
-                                                        .pause(pauseMs);
-                                                });
+                                                client
+                                                    .moveTo(liWebElementId, null, null)
+                                                    .elementIdClick(removeWebElement.value.ELEMENT)
+                                                    .pause(pauseMs);
                                             });
                                     }
                                 });

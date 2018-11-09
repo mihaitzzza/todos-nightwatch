@@ -43,12 +43,12 @@ module.exports = {
                 'version': '48'
             }
         },
-        'firefox': {
+        'safari': {
             'desiredCapabilities': {
-                'name': 'Firefox job',
-                'platform': 'Windows 8',
-                'browserName': 'firefox',
-                'version': '33'
+                'name': 'Safari job',
+                'platform': 'macOS 10.13',
+                'browserName': 'safari',
+                'version': '12'
             }
         }
     }
